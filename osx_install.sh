@@ -10,6 +10,9 @@ if test ! $(which brew); then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# Install xcode tools
+xcode-select —-install
+
 # Update homebrew recipes
 echo "Updating homebrew"
 brew update
@@ -21,5 +24,9 @@ brew cask install iterm2
 #zsh
 echo "Installing zsh"
 brew install zsh
+
+sudo chsh -s /usr/local/bin/zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "bootstrapping finished"

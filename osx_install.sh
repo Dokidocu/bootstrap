@@ -30,15 +30,23 @@ sudo chsh -s /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #chrome
+echo "Installing google-chrome"
 brew cask install google-chrome
 
 #spotify
+echo "Installing spotify"
 brew cask install spotify
 
 #sublime-text
+echo "Installing sublime-text"
 brew cask install sublime-text
 
 #cyberduck
+echo "Installing cyberduck"
 brew cask install cyberduck
+
+#git
+echo "Installing git"
+brew install git
 
 echo "bootstrapping finished"

@@ -60,4 +60,8 @@ brew cask install slack
 brew cask install microsoft-teams
 brew cask install skype-for-business
 
+#docker
+echo "Installing docker"
+brew cask install docker
+
 echo "bootstrapping finished"

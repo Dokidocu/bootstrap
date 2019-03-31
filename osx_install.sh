@@ -35,4 +35,7 @@ brew cask install google-chrome
 #spotify
 brew cask install spotify
 
+#sublime-text
+brew cask install sublime-text
+
 echo "bootstrapping finished"

@@ -54,4 +54,10 @@ echo "Installing android-studio"
 brew cask install android-studio
 brew cask install intel-haxm
 
+#slack, microsoft-teams and skype-for-business
+echo "Installing slack, microsoft-teams and skype-for-business"
+brew cask install slack
+brew cask install microsoft-teams
+brew cask install skype-for-business
+
 echo "bootstrapping finished"

@@ -49,4 +49,9 @@ brew cask install cyberduck
 echo "Installing git"
 brew install git
 
+#android studio
+echo "Installing android-studio"
+brew cask install android-studio
+brew cask install intel-haxm
+
 echo "bootstrapping finished"

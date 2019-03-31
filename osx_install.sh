@@ -38,4 +38,7 @@ brew cask install spotify
 #sublime-text
 brew cask install sublime-text
 
+#cyberduck
+brew cask install cyberduck
+
 echo "bootstrapping finished"

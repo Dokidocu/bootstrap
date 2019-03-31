@@ -32,4 +32,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #chrome
 brew cask install google-chrome
 
+#spotify
+brew cask install spotify
+
 echo "bootstrapping finished"

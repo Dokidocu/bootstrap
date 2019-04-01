@@ -64,4 +64,8 @@ brew cask install skype-for-business
 echo "Installing docker"
 brew cask install docker
 
+#visual-paradigm-ce
+echo "Installing visual-paradigm-ce"
+brew install visual-paradigm-ce
+
 echo "bootstrapping finished"

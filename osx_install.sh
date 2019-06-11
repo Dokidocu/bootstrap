@@ -73,4 +73,7 @@ echo "Installing gradle"
 brew cask install adoptopenjdk
 brew install gradle
 
+#cocoapods
+sudo gem install cocoapods
+
 echo "bootstrapping finished"

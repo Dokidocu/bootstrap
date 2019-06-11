@@ -76,4 +76,7 @@ brew install gradle
 #cocoapods
 sudo gem install cocoapods
 
+#sourcetree
+brew cask install sourcetree
+
 echo "bootstrapping finished"

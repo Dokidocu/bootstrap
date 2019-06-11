@@ -70,6 +70,7 @@ brew install visual-paradigm-ce
 
 #gradle
 echo "Installing gradle"
+brew cask install adoptopenjdk
 brew install gradle
 
 echo "bootstrapping finished"
